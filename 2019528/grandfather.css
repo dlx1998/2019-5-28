@@ -1,0 +1,61 @@
+body{
+    width: 100%;
+    height: 665px;
+}
+p{
+    font-size: 50px;
+    text-align: center;
+    font-family: 隶书;
+}
+.container{
+    width: 80%;height: 50%;
+    margin: auto;
+    font-size: 50px;
+}
+.one{
+    width: 80%;height: 50%;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    font-family: 魏书;
+}
+.none{
+    display: none;
+}
+.active{
+    list-style:none;
+    width: 100px;height: 10px;
+    background-color: #ccc;
+    display: inline-block;
+    position: relative;top: 475px;
+    left: 28%;
+} 
+
+.hide{
+    background-color: red;
+    list-style:none;
+    width: 100px;height: 10px;
+    display: inline-block;
+    position: relative;top: 475px;
+    left: 28%;
+}
+img{
+    width: 1000px;height: 500px;
+}
+#shangxin{
+    width: 80%;height: 50%;
+    margin: auto;
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+#try{
+    width: 100px;
+    height: 50px;
+    background-color: #ccc;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 100px;margin: auto;
+}
